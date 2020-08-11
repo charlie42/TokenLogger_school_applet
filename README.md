@@ -1,2 +1,2 @@
-# TokenLogger_AcademicProblems_applet
+# TokenLogger_school_applet
 MindLogger TokenLogger applet for tracking academic problems
