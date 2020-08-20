@@ -1,0 +1,50 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "token_screen",
+    "question": "Token Screen",
+    "ui": {
+        "inputType": "radio",
+        "allow": [
+            "dontKnow"
+        ]
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "schema:minValue": 0,
+        "schema:maxValue": 1,
+        "multipleChoice": true,
+        "choices": [{
+            "@type": "schema:option",
+            "schema:name": "Setting a 15 minute timer for their break after school ends",
+            "schema:value": 1
+        },
+        {
+            "schema:name": "Starting homework immediately after break timer ends.",
+            "@type": "schema:option",
+            "schema:value": 1
+        },
+        {
+            "schema:name": "Reading a book for 15 minutes using the timer.",
+            "@type": "schema:option",
+            "schema:value": 1
+        },
+        {
+            "schema:name": "Working on Math for 30 minutes using the timer.",
+            "@type": "schema:option",
+            "schema:value": 1
+        },
+        {
+            "schema:name": "Working on Language Review for 30 minutes using the timer.",
+            "@type": "schema:option",
+            "schema:value": 1
+        },
+        {
+            "schema:name": "Showing parents completed work and asking for help finishing it if needed.",
+            "@type": "schema:option",
+            "schema:value": 1
+        }]
+    }
+}
