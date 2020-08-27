@@ -3,7 +3,7 @@
         "https://raw.githubusercontent.com/ChildMindInstitute/TokenLogger_school_applet/master/activities/TokenActivity/TokenActivity_context"
     ],
     "@type": "reproschema:Activity",
-    "@id": "TokenActivity_schema",
+    "@id": "TokenActivity_school_schema",
     "skos:prefLabel": "TokenActivity Assessment",
     "schema:description": "TokenActivity assessment schema",
     "schema:schemaVersion": "0.0.1",
